@@ -69,6 +69,7 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 "carts.context_processors.counter",
+                "accounts.context_processors.contact_info",
             ],
         },
     },
@@ -166,4 +167,5 @@ SSLCOMMERZ_STORE_PASS = env("SSLCOMMERZ_STORE_PASS")
 
 DELIVERY_CHARGE = Decimal("60.00")
 #DELIVERY_CHARGE=60.00
+
 
